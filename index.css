@@ -1,22 +1,40 @@
 html, body {
     margin: 0;
     padding: 0;
-    /*
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
-    */
+    justify-items: center;
+    
 }
 
-input {
-    /*
+input{
     color: #432000;
-    background-color: #DCE1EB
-    */
+    background-color: #c09fa5;
+    margin-top: 220px;
+    margin-left: 65px;
+    border-style: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    gap: 2px;
 }
 
-button {
-    /*
+button{
     color: #FDFDFD;
     background-color: #AC485A;
-    */
+    border-style: none;
+    height: 40px;
+    width: 250px;
+    margin-left: 65px;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: #ffeede;
+    border-style: solid;
+    border-radius: 20px;
+    display: grid;
 }
