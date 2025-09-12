@@ -31,13 +31,3 @@ function resetValueEl(){
 function addtoList(itemValue){
     shoppingListEl.innerHTML += `<li>${itemValue}</li>`
 }
-
-
-
-
-
-let scrimbaUsersEmails = Object.values(scrimbaUsers)
-
-let scrimbaUsersIDs = Object.keys(scrimbaUsers)
-
-let scrimbaUsersEntries = Object.entries(scrimbaUsers)
